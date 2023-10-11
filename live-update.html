@@ -1,0 +1,3829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" content="top indian news" />
+    <meta name="description" content="top indian news to your doorstep" />
+    <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <title>Top Indian News</title>
+    <link rel="preconnect" href="./global-images/facebook.svg">
+    <link rel="preconnect" href="./global-images/twitter.svg">
+    <link rel="preconnect" href="./global-images/instagram.svg">
+    <link rel="preconnect" href="./global-images/menu-styled.svg">
+    <link rel="preconnect" href="./global-images/top-indian-news-logo.svg">
+    <link rel="preconnect" href="./global-images/search-icon.svg">
+    <link rel="preconnect" href="./global-images">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+
+* a {
+   text-decoration: none;
+   color: #3c3c3c;
+}
+
+
+
+html {
+   scroll-behavior: smooth;
+}
+
+.container {
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.category .cat-page .cat-page-items .cat-items-list li a figure img {
+    width: 180px;
+    height: 110px;
+    object-fit: cover;
+}
+*a:hover {
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+* {
+   font-family: 'Poppins', sans-serif;
+   transition: all 0.6s ease;
+}
+
+@media (min-width: 1300px) {
+   .container {
+      width: 1286px;
+   }
+
+   .tabhead-b-menu a,
+   .tabhead-nenu a {
+      padding-left: 0px !important;
+   }
+
+   .tabhead-b-menu ul,
+   .tabhead-nenu ul {
+      padding-left: 16px !important;
+   }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+   .col-md-3 {
+      width: 27% !important;
+   }
+
+   .col-md-6 {
+      width: 46%;
+   }
+
+   .tabhead-b-menu a,
+   .tabhead-nenu a {
+      padding-left: 0px !important;
+   }
+
+   .tabhead-b-menu ul,
+   .tabhead-nenu ul {
+      padding-left: 16px !important;
+   }
+
+   .hero .hero-grid .lighthouse li {
+      height: 215px;
+      width: calc(50% - 32px) !important;
+   }
+
+   .hero .hero-grid .lighthouse>:first-child,
+   .hero .hero-grid .lighthouse>:first-child a figure .thumb {
+      width: 515px !important;
+   }
+
+   .hero .hero-grid .lighthouse li a figure .thumb {
+      height: 215px;
+      min-width: 100%;
+   }
+}
+
+/*------------------- Scroll bar design ----------*/
+body::-webkit-scrollbar {
+   width: 0.4em;
+   height: 0.2em;
+}
+
+body::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+   background-color: darkgrey;
+   outline: 1px solid slategrey;
+}
+
+*::-webkit-scrollbar {
+   width: 0.4em;
+   height: 0.2em;
+}
+
+*::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+   background-color: darkgrey;
+   outline: 1px solid slategrey;
+}
+
+.menu {
+   display: block;
+   order: 1;
+}
+
+.men-buttons {
+   display: flex;
+   margin-left: auto;
+   order:2;
+}
+
+.men-buttons img {
+   width: 32px;
+   height: 32px;
+   cursor: pointer;
+}
+
+.menu-icon {
+   width: 22px;
+   height: 22px;
+   cursor:pointer;
+}
+
+.link-divider {
+   width: 1px;
+   height: 10px;
+   background: #212121;
+}
+
+.line-clamp-2 {
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.line-clamp-3 {
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+/*------------------- Scroll bar design ----------*/
+
+/* --------------------------Brand Header Starts ------------------- */
+
+.brand-header {
+   display: flex;
+   flex-direction: column;
+}
+
+.brand-header .brand-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'poppins', sans-serif;
+}
+
+.brand-header .icons {
+   display: flex;
+   flex-direction: row;
+   gap: 32px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.category .cat-page .cat-page-items .cat-items-list li a figure img {
+    width: 180px;
+    height: 110px;
+    object-fit: cover;
+}
+
+
+.brand-header .icons li {
+   display: flex;
+   flex-direction: column;
+   min-height: 20px;
+   align-items: center;
+   justify-content: center;
+}
+
+.brand-header .icons li a {
+   display: flex;
+   flex-direction: row;
+   gap: 8px;
+   align-items: center;
+   text-decoration: none;
+   color: #A30224;
+}
+
+.brand-header .icons li a .icons {
+   width: 19.8px;
+   height: 19.8px;
+   margin-top: -1px;
+}
+
+.brand-header .icons li a .dropdown {
+   width: 10.37px;
+   height: 5.185px;
+}
+
+.brand-header .icons li a span {
+   color: #A30224;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 18px;
+}
+
+.brand-header .brand-logo {
+   display: flex;
+   flex-direction: row;
+   margin: 12px auto;
+}
+
+.brand-header .brand-logo a {
+   display: flex;
+   flex-direction: column;
+}
+
+.brand-header .brand-logo .logo {
+   width: 190px;
+   height: 63px;
+   object-fit: cover;
+}
+
+.nav-header {
+   display: flex;
+   flex-direction: column;
+   background: #A30224;
+   -webkit-transition: all .2s ease-in-out;
+   -o-transition: all .1s ease-in-out;
+   transition: all .1s ease-in-out;
+}
+
+.nav-header ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.nav-header ul li {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.nav-header ul li:hover {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: #fff;
+}
+
+.nav-header ul li:hover a {
+   color: #3c3c3c;
+}
+
+.nav-header ul li a {
+   color: #FFF;
+   text-align: center;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 22px;
+   padding: 8px 16px;
+   text-transform: uppercase;
+   text-underline-position: under;
+}
+
+
+/* =============--------------Brand Header Ends --------================= */
+
+
+.header {
+   display: flex;
+   flex-direction: column;
+}
+
+.top-header {
+   height: 22px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.top-header .top-hd {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.top-header .top-hd .top-sm-links {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   align-items: center;
+}
+
+
+
+.top-header .top-hd .top-sm-links .sm-links {
+   color: #938E8E;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   font-size: 11px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 22px;
+}
+
+.top-header .top-hd .top-sm-links .soc-links img {
+   width: 12px;
+   height: 12px;
+   fill: #555D67;
+}
+
+.top-header .top-hd .top-sm-links .soc-links {
+   display: flex;
+   align-items: center;
+   justify-items: center;
+}
+
+.mid-header {
+   border-top: 1px solid #EAEAEA;
+   background: #ffffff;
+   box-shadow: #bcbcbc26 0px 8px 8px 0px;
+   z-index: 999999;
+}
+
+
+.mid-header .mid-hd {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 50px;
+   padding: 4px 0;
+}
+
+
+
+.mid-header .brand {
+   display: block;
+}
+
+.mid-header .brand img {
+   height: auto;
+   width: 170px;
+   margin-top: -1px;
+}
+
+.mid-header .nav-row>:nth-child(2){
+   margin-bottom: 3px;
+   justify-content: unset;
+   gap:16px;
+}
+
+.mid-header .nav-row>:first-child{
+   margin-top: 8px;
+}
+.mid-header .nav-row {
+   display: flex;
+   flex-direction: column;
+}
+
+.mid-header .mid-nav {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 0;
+   align-items: center;
+   gap: 32px;
+   justify-content: space-between;
+   list-style: none;
+   padding: 0;
+}
+
+.mid-header .mid-nav .nav-links {
+   display: block;
+}
+
+.mid-header .mid-nav .nav-links a {
+   color: #212121;
+   text-align: center;
+   font-family: 'Poppins';
+   text-underline-position: under;
+   text-decoration-color: #ff0000;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 30px;
+}
+.mid-header .mid-nav .tag-links {
+   display: block;
+}
+.stickynav {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 999999;
+}
+
+.mid-header .mid-nav .tag-links a {
+   color: #999999;
+   text-align: center;
+   font-family: 'Poppins';
+   text-decoration-color: transparent;
+   font-size: 12px;
+   font-style: normal;
+   border: 1px solid #999999;
+   border-radius: 14px;
+   padding: 2px 8px 2px 8px;
+   font-weight: 400;
+   line-height: 30px;
+}
+.mid-header .mid-nav .tag-links:hover a {
+   color: #fff;
+   background-color: #a30224;
+   text-align: center;
+   font-family: 'Poppins';
+   text-decoration-color: transparent;
+   font-size: 12px;
+   font-style: normal;
+   border: 1px solid #a30224;
+   border-radius: 14px;
+   padding: 2px 8px 2px 8px;
+   font-weight: 400;
+   line-height: 30px;
+}
+
+.news-ticker {
+   padding: 20px 0;
+}
+
+.news-ticker .ticker-inner {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background: #F2F3F5;
+}
+
+.news-ticker .ticker-inner .tick-header {
+   display: flex;
+   background: #a30224;
+   padding: 6px 12px;
+   padding-right: 50px;
+   clip-path: polygon(0 0, 78% 0, 100% 100%, 0% 100%);
+}
+
+.news-ticker .ticker-inner .tick-header span {
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 20px;
+}
+
+.news-ticker .ticker-inner .tick-content {
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+   padding-left: 15px;
+   width: 100%;
+   align-items: center;
+   margin-bottom: 0;
+}
+
+.news-ticker .ticker-inner .tick-content li {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.news-ticker .ticker-inner .tick-content li ::before {
+   content: "";
+   position: absolute;
+   left: -10px;
+   transform: translateY(50%);
+   top: 25%;
+   height: 5px;
+   width: 5px;
+   border-radius: 25px;
+   background: #999999;
+}
+
+.news-ticker .ticker-inner .tick-content li a {
+   text-decoration: none;
+   color: #999;
+}
+
+.news-ticker .ticker-inner .tick-content li a h2 {
+   font-size: 13px;
+   line-height: 20px;
+   font-family: 'Poppins', sans-serif;
+   color: #999;
+   font-weight: 400;
+
+   .truncate {
+      text-overflow: ellipsis;
+
+      /* Needed to make it work */
+      overflow: hidden;
+      white-space: nowrap;
+   }
+
+   ;
+   letter-spacing: -0.14px;
+
+   .truncate {
+      text-overflow: ellipsis;
+
+      /* Needed to make it work */
+      overflow: hidden;
+      white-space: nowrap;
+   }
+
+   ;
+   margin: 0;
+
+
+   /* Needed to make it work */
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+}
+
+.hero {
+   background: transparent;
+   padding-top: 18px;
+}
+
+/*-----============= Left Sidebar =====-------------*/
+
+.hero-grid .content-list {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.hero-grid ul.content-list {
+   list-style: none;
+   padding: 0;
+}
+
+.tabhead::after {
+   content: "";
+   position: absolute;
+   top: 13px;
+   left: 0px;
+   height: 7.2px;
+   width: 100%;
+   border-top: solid 1px #dbdbdb;
+   border-bottom: solid 1px #dbdbdb;
+}
+
+.tabhead::before {
+   content: "";
+   position: absolute;
+   height: 1px;
+   top: 7px;
+   width: 100%;
+   border-top: solid 1px #dbdbdb;
+}
+
+.tabhead {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   align-items: center;
+}
+
+.tabhead a h2 {
+   color: #212121;
+   font-family: 'Poppins', sans-serif;
+   font-size: 22px;
+   text-underline-position: under;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 28px;
+   text-transform: uppercase;
+}
+
+.tabhead a h2 {
+   margin: 0;
+}
+
+.tabhead a {
+   text-decoration: none;
+   color: #3c3c3c;
+   z-index: 9;
+   padding-right: 10px;
+   padding-left: 10px;
+   background-color: #fff;
+}
+
+/* ========-----------------Tab head manu black Starts -------======= */
+
+.tabhead-b-menu::after {
+   content: "";
+   position: absolute;
+   top: 13px;
+   left: 0px;
+   height: 6px;
+   width: 100%;
+   border-top: solid 1px #386494;
+   border-bottom: solid 1px #386494;
+}
+
+.tabhead-b-menu::before {
+   content: "";
+   position: absolute;
+   height: 1px;
+   top: 7px;
+   width: 100%;
+   border-top: solid 1px #386494;
+}
+
+.tabhead-b-menu {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.tabhead-b-menu a h2 {
+   color: #FFF;
+   font-family: 'Poppins', sans-serif;
+   font-size: 21px;
+   text-underline-position: under;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 28px;
+   text-transform: uppercase;
+   margin: 0;
+}
+
+
+.tabhead-b-menu a,
+.tabhead-b-menu ul {
+   text-decoration: none;
+   color: #fff;
+   z-index: 9;
+   padding-right: 10px;
+   text-transform: uppercase;
+   padding-left: 10px;
+   background-color: #1D2936;
+}
+
+.tabhead-b-menu ul a {
+   font-weight: 500;
+   font-size: 16px;
+   color: #78B9FF;
+}
+
+.tabhead-b-menu ul a:hover {
+   color: #fff;
+   cursor: pointer;
+}
+
+.tabhead-b-menu ul {
+   display: flex;
+   flex-direction: row;
+   gap: 16px;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   padding-left: 16px;
+}
+
+/* ========-----------------Tab head menu black Ends -------======= */
+
+.category .cat-page .cat-page-items .cat-items-list li a figure .img-thumb {
+   width:210px
+}
+
+/* ========-----------------Tab head manu Starts -------======= */
+
+.tabhead-menu::after {
+   content: "";
+   position: absolute;
+   top: 13px;
+   left: 0px;
+   height: 6px;
+   width: 100%;
+   border-top: solid 1px #ccc;
+   border-bottom: solid 1px #ccc;
+}
+
+.tabhead-menu::before {
+   content: "";
+   position: absolute;
+   height: 1px;
+   top: 8px;
+   width: 100%;
+   border-top: solid 1px #ccc;
+}
+
+.tabhead-menu {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.tabhead-menu a h2 {
+   color: #212121;
+   font-family: 'Poppins', sans-serif;
+   font-size: 21px;
+   text-underline-position: under;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 28px;
+   text-transform: uppercase;
+   margin: 0;
+}
+
+
+.tabhead-menu a,
+.tabhead-menu ul {
+   text-decoration: none;
+   color: #fff;
+   z-index: 1;
+   padding-right: 10px;
+   text-transform: uppercase;
+   padding-left: 10px;
+   background-color: #fafafa;
+}
+
+.tabhead-menu ul a {
+   font-weight: 500;
+   font-size: 16px;
+   color: #3c3c3c;
+   cursor: pointer;
+}
+
+.tabhead-menu ul a:hover {
+   color: #A30224;
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.tabhead-menu ul {
+   display: flex;
+   flex-direction: row;
+   gap: 16px;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   padding-left: 16px;
+}
+
+/* ========-----------------Tab head manu Ends -------======= */
+
+.hero-grid .content-list li::after {
+   content: "";
+   position: absolute;
+   width: 100%;
+   bottom: -6px;
+   height: 0.5px;
+   background: #9999994f;
+}
+
+.hero-grid .content-list li {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   gap: 16px;
+}
+
+.hero-grid .content-list li a {
+   text-decoration: none;
+   color: #3c3c3c;
+   display: flex;
+   min-height: 100px;
+   justify-content: space-around;
+   gap: 8px;
+   flex-direction: column;
+   transition: all 400ms ease-out;
+}
+
+
+
+.hero-grid .content-list li a:hover .news-info span {
+   text-decoration: none;
+}
+
+.hero-grid .content-list li a h3 {
+   color: #3C3C3C;
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 22.6px;
+   letter-spacing: 0.3px;
+   text-decoration: underline 0.05em transparent;
+   text-underline-offset: 0.15em;
+   transition: text-decoration-color 250ms ease-in-out, text-underline-offset 250ms ease-in-out;
+}
+
+.hero-grid .content-list li a h3:hover {
+   text-decoration-color: #3c3c3c;
+   text-underline-offset: 0.2em;
+}
+
+.hero-grid .content-list li a h3 {
+   display: inline-block;
+   position: relative;
+}
+
+.hero-grid .content-list li a h3 {
+   margin: 0;
+}
+
+/*------------category and date-----------*/
+
+.news-info .date {
+   color: #A3A3A3;
+   font-family: Poppins;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24.6px;
+   /* 182.857% */
+   letter-spacing: 0.3px;
+   padding-left: 8px;
+}
+
+.news-info .category {
+   color: #666;
+   font-family: Poppins;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24.6px;
+   /* 196.923% */
+   letter-spacing: 0.3px;
+   text-transform: uppercase;
+   position: relative;
+   padding-right: 8px;
+}
+
+.news-info .category::after {
+   content: "";
+   position: absolute;
+   right: 0px;
+   width: 0.5px;
+   top: 2px;
+   transform: translateY(50%);
+   height: 10px;
+   background: #A3A3A3;
+}
+
+.news-info {
+   display: flex;
+   flex-direction: row;
+}
+
+/*----=========== Light House Section =======-----
+--------------------------------------------------*/
+
+/*-----======== End Here ========-----------*/
+
+.hero .hero-col {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   padding: 0 12px;
+}
+
+.hero .hero-col ul {
+   padding-left: 0;
+   list-style: none;
+}
+
+.hero .lighthouse>:first-child {
+   width: 100%;
+}
+
+.hero .hero-grid {
+   list-style: none;
+}
+
+.hero .hero-grid .lighthouse {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex: 1 1;
+   list-style: none;
+   padding: 0;
+   gap: 32px;
+}
+
+.hero .hero-grid .lighthouse>:first-child {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.hero .hero-grid .lighthouse>:first-child a figure .thumb {
+   width: -webkit-fill-available;
+   width: -moz-available;
+   object-fit: cover;
+   min-width: 100%;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.04) 58.85%, rgba(0, 0, 0, 0.22) 70.83%, rgba(0, 0, 0, 0.27) 100%);
+}
+
+.hero .hero-grid .lighthouse>:first-child,
+.hero .hero-grid .lighthouse>:first-child a figure .thumb {
+   height: 370px;
+   width: 561px;
+   min-width: 100%;
+   max-width: 619px;
+}
+
+.hero .hero-grid .lighthouse li {
+   width: 47%;
+   display: flex;
+   flex-direction: column;
+}
+
+.hero .hero-grid .lighthouse li a figure .thumb {
+   width: -webkit-fill-available;
+   width: -moz-available;
+   object-fit: cover;
+   min-width: 100%;
+}
+
+.hero .hero-grid .lighthouse li {
+   height: 215px;
+   width: 263px;
+   min-width: calc(50% - 16px);
+}
+
+.hero .hero-grid .lighthouse li a figure .thumb {
+   height: 215px;
+   width: 263px;
+   min-width: 100%;
+}
+
+.hero .hero-grid .lighthouse>:first-child a {
+   text-decoration: none;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.hero .hero-grid .lighthouse>:first-child a .info {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.04) 58.85%, rgba(0, 0, 0, 0.22) 70.83%, rgba(0, 0, 0, 0.27) 100%);
+   padding: 20px 25px;
+}
+
+.hero .hero-grid .lighthouse>:first-child a .info .lhs-text {
+   color: #FFF;
+   font-size: 22px;
+   font-style: normal;
+   margin: 0;
+   font-weight: 500;
+   line-height: 38.4px;
+   letter-spacing: 0.3px;
+}
+
+.hero .hero-grid .lighthouse li a {
+   text-decoration: none;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.hero .hero-grid .lighthouse li a .info {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding: 15px 15px;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.04) 58.85%, rgba(0, 0, 0, 0.22) 70.83%, rgba(0, 0, 0, 0.27) 100%);
+}
+
+.hero .hero-grid .lighthouse li a .info .lhs-text {
+   color: #FFF;
+   font-size: 14px;
+   font-style: normal;
+   margin: 0;
+   font-weight: 500;
+   line-height: 22.4px;
+   letter-spacing: 0.3px;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.hero .hero-grid .lighthouse li a:hover .info .lhs-text {
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.lighthouse .news-info .category {
+   color: #fff;
+   font-weight: 400;
+}
+
+.lighthouse .news-info .category::after {
+   background: #fff;
+}
+
+.lighthouse .news-info .date {
+   color: #fff;
+   font-weight: 400;
+}
+
+.lighthouse li .info .news-info .category {
+   color: #fff;
+   font-weight: 500;
+   font-size: 12px;
+}
+
+.lighthouse li .info .news-info .category::after {
+   background: #fff;
+   height: 9px;
+}
+
+.lighthouse li .info .news-info .date {
+   color: #fff;
+   font-weight: 400;
+   font-size: 10px;
+}
+
+.detailed figure iframe {
+   width: 100%;
+}
+
+/*-------============ Right Sidebar =========-----------*/
+.side-feed-list {
+   display: flex;
+   flex-direction: column;
+   gap: 17px;
+   padding: 0;
+}
+
+.side-feed-list .side-feed a {
+   text-decoration: none;
+   color: #3C3C3C;
+   display: flex;
+   gap: 2px;
+   flex-direction: column;
+}
+
+.side-feed-list .side-feed {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.side-feed-list .side-feed .news {
+   display: flex;
+   flex-direction: row;
+   gap: 16px;
+}
+
+.side-feed-list .side-feed .news figure {
+   margin-top: 2px;
+}
+
+.side-feed-list .side-feed .news figure .thumb {
+   min-width: 101px;
+   width: auto;
+   min-height: 63px;
+   height: auto;
+   object-fit: cover;
+   border-radius: 5px;
+}
+
+.side-feed-list .side-feed .news .feeds-headlines {
+   color: #3C3C3C;
+   font-family: Poppins;
+   font-size: 14px;
+   font-style: normal;
+   display: -webkit-box;
+   width: 100%;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   font-weight: 500;
+   line-height: 22.2px;
+   margin: 0;
+   letter-spacing: 0.3px;
+}
+.side-feed-list .side-feed .news:hover {
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+
+.side-feed-list .side-feed .news-info .date {
+   font-size: 12px;
+   line-height: 24.6px;
+   /* 182.857% */
+   letter-spacing: 0.3px;
+   padding-left: 8px;
+}
+
+.side-feed-list .side-feed .news-info .category {
+   font-size: 12px;
+   line-height: 24.6px;
+   /* 196.923% */
+   letter-spacing: 0.3px;
+}
+
+.side-feed-list .side-feed .news-info .category::after {
+   height: 10px;
+}
+
+.side-feed-list .side-feed::after {
+   content: "";
+   position: absolute;
+   position: absolute;
+   width: 100%;
+   bottom: -2px;
+   height: 0.5px;
+   background: #9999994f;
+}
+
+.one-col {
+   background: none;
+   padding-top: 32px;
+   padding-bottom: 28px;
+   background: #1D2936;
+}
+
+.one-col .single-news::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 2px;
+   background: #386494;
+}
+
+.one-col .single-news .news-grid li a figure,
+.side-feed-list .side-feed .news figure {
+   position: relative;
+}
+
+.side-feed-list .side-feed .news figure .videoicon {
+   width: 25.564px;
+   height: 25.564px;
+   content: "";
+   object-fit: cover;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.side-feed-list .side-feed:hover .news figure .videoicon {
+   width: 30.564px;
+   height: 30.564px;
+   background-repeat: none;
+   object-fit: cover;
+}
+
+.one-col .single-news .news-grid li:hover a figure .videoicon {
+   width: 40.564px;
+   height: 40.564px;
+   background-repeat: none;
+   object-fit: cover;
+}
+
+.one-col .single-news .news-grid li a figure .videoicon {
+   width: 35.564px;
+   height: 35.564px;
+   content: "";
+   object-fit: cover;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.one-col .single-news {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   position: relative;
+}
+
+.one-col .single-news .news-grid {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 32px;
+   padding: 0;
+   list-style: none;
+   margin-top: 16px;
+   margin-bottom: 24px;
+}
+
+.one-col .single-news .news-grid li {
+   display: flex;
+   flex-direction: column;
+   width: 17.9%;
+}
+
+.one-col .single-news .news-grid li a {
+   text-decoration: none;
+   color: #3C3C3C;
+   display: flex;
+   flex-direction: column;
+}
+
+.one-col .single-news .news-grid li a figure .thumb {
+   width: 168px;
+   height: 120px;
+   width: -webkit-fill-available;
+   height: 120px;
+   object-fit: cover;
+   width: -moz-available;
+}
+
+.one-col .single-news .news-grid li a .news-headlines {
+   color: #fff;
+   font-family: Poppins;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22px;
+   margin: 8px 0;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+.one-col .single-news .news-grid li a:hover .news-headlines {
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+section {
+   padding: 32px 0;
+}
+
+/* ========------------------------------ mega section starts ----------------=========== */
+.mega-section {
+   background-color: #fafafa;
+}
+
+.mega-section .news-grid::after {
+   content: "";
+   position: absolute;
+   height: 1px;
+   bottom: 0;
+   width: 100%;
+   border-top: solid 1px #dbdbdb;
+}
+
+.mega-section .news-grid {
+   padding-top: 24px;
+   padding-bottom: 24px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   list-style: none;
+   position: relative;
+   row-gap: 18px;
+   column-gap: 16px;
+   padding-left: 0;
+   margin: 0;
+   max-height: 370px;
+}
+
+.mega-section .news-grid>:first-child {
+   width: calc(31% - 32px);
+}
+
+.mega-section .news-grid li {
+   width: calc(24.5% - 16px);
+   display: flex;
+   flex-direction: column;
+   flex: 1 1;
+}
+
+.mega-section .news-grid>:first-child a figure {
+   width: 100%;
+   min-height: 100%;
+}
+
+.mega-section .news-grid li a figure {
+   width: 110px;
+   min-width: 110px;
+}
+
+.mega-section .news-grid>:first-child a {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   text-decoration: none;
+   color: #3c3c3c;
+}
+
+.mega-section .news-grid li a {
+   display: flex;
+   flex-direction: row;
+   gap: 12px;
+   text-decoration: none;
+   color: #3c3c3c;
+}
+
+.mega-section .news-grid>:first-child a .thumb {
+   height: 253px;
+   max-height: 253px;
+   width: 100%;
+   object-fit: cover;
+}
+
+.mega-section .news-grid li a .thumb {
+   height: 63px;
+   max-height: 63px;
+   width: 100%;
+   border-radius: 2px;
+   object-fit: cover;
+}
+
+.mega-section .news-grid>:first-child a .news-headlines {
+   color: #3C3C3C;
+   font-family: Poppins;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 32px;
+   letter-spacing: 0.3px;
+   margin: 0;
+}
+
+.mega-section .news-grid li a .news-headlines {
+   color: #3C3C3C;
+   font-family: Poppins;
+   font-size: 14px;
+   font-style: normal;
+   display: -webkit-box;
+   width: 100%;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   font-weight: 500;
+   line-height: 22.2px;
+   margin: 0;
+   letter-spacing: 0.3px;
+}
+
+.mega-section .news-grid li a:hover .news-headlines {
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+/* ========------------------------------ mega section Ends ----------------=========== */
+
+.one-news-sidebar {
+   background: none;
+}
+
+.one-news-sidebar .stories,
+.one-news-sidebar .live-update {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   padding: 0 0;
+   position: relative;
+}
+
+.one-news-sidebar .stories .stories-list {
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   padding: 0;
+   gap: 24px;
+   justify-content: space-between;
+}
+
+.one-news-sidebar .stories .stories-list li {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.one-news-sidebar .stories .stories-list li a {
+   display: flex;
+   flex-direction: column;
+}
+
+.one-news-sidebar .stories .stories-list li figure .thumb {
+   width: 211px;
+   height: 340px;
+   object-fit: cover;
+}
+
+.one-news-sidebar .stories .stories-list li .info {
+   width: 100%;
+   height: 100%;
+   min-height: --webkit-fill-available-;
+   min-width: --webkit-fill-available-;
+   min-width: -moz-available;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.one-news-sidebar .stories .stories-list li .info .story-icon {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+
+.one-news-sidebar .stories .stories-list li .info .story-icon .icon {
+   width: 30px;
+   height: 30px;
+   border-radius: 30px;
+}
+
+.one-news-sidebar .stories .stories-list .info .headlines {
+   bottom: 0;
+   width: 100%;
+   position: absolute;
+   padding: 0px 0px;
+}
+
+.one-news-sidebar .stories .stories-list .info .headlines h3 {
+   padding: 5px 12px;
+   padding-bottom: 5px;
+   color: #fff;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   margin: 0;
+   line-height: 22px;
+   letter-spacing: 0.3px;
+   display: -webkit-box;
+   background: linear-gradient(357deg, #14141450, #66666680);
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.one-news-sidebar .stories .stories-list a:hover .info .headlines h3 {
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.one-news-sidebar .stories::after {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 1px;
+   background-color: #dbdbdb;
+   bottom: 0;
+}
+
+.one-news-sidebar .one-side-grid {
+   display: flex;
+   flex-direction: row;
+   gap: 32px;
+}
+
+.one-news-sidebar .live-update .live-timelines {
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+}
+
+.one-news-sidebar .live-update .live-timelines .live-head {
+   display: flex;
+   flex-direction: row;
+   gap: 8px;
+   align-items: center;
+}
+
+.one-news-sidebar .live-update .live-timelines .live-head span {
+   font-size: 22px;
+   line-height: 27px;
+   font-weight: 500;
+   color: #333;
+}
+
+.one-news-sidebar .live-update .live-timelines .live-head .icon {
+   width: 20px;
+   height: 20px;
+}
+
+.one-news-sidebar .live-update .live-timelines .news-list {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   padding-left: 30px;
+   overflow-y: scroll;
+   max-height: 125px;
+}
+
+.one-news-sidebar .live-update .live-timelines .news-list li::before {
+   content: "";
+   position: absolute;
+   left: -21px;
+   top: 17px;
+   background: rgb(235, 35, 0);
+   stroke-width: 0.5px;
+   stroke: #DF0505;
+   height: 107%;
+   width: 1px;
+}
+
+.one-news-sidebar .live-update .live-timelines .news-list li::after {
+   content: "";
+   position: absolute;
+   bottom: -8px;
+   width: 95%;
+   height: 1px;
+   background-color: #cfcbcb;
+}
+
+.one-news-sidebar .live-update .live-timelines .news-list li {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.one-news-sidebar .live-update .live-timelines .news-list li a::after {
+   content: "";
+   position: absolute;
+   top: 8px;
+   left: -24px;
+   background: #DF0505;
+   height: 7px;
+   width: 7px;
+   border-radius: 25px;
+}
+
+.one-news-sidebar .live-update .live-timelines .news-list li a {
+   text-decoration: none;
+   color: #333;
+}
+
+.one-news-sidebar .live-update .live-timelines .news-list li a h3 {
+   font-size: 14px;
+   line-height: 22px;
+   color: #333;
+   width: 95%;
+   margin: 0;
+   font-weight: 400;
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.one-news-sidebar .live-update .live-timelines .news-list li a:hover h3 {
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.one-news-sidebar .live-update .live-timelines .news-list>:last-child::before {
+   height: 86%;
+}
+
+.two-news-sidebar {
+   background: none;
+}
+
+.two-news-sidebar .two-side-grid {
+   display: flex;
+   flex-direction: row;
+   gap: 32px;
+}
+
+.two-news-sidebar .two-side-grid .left-grid {
+   display: flex;
+   flex-direction: row;
+   gap: 32px;
+   padding: 0 0;
+}
+
+.two-news-sidebar .two-side-grid .left-grid .news-tabs {
+   padding: 0 0;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+/*--------------newstab width settings -----------*/
+.two-news-sidebar .two-side-grid .left-grid .news-tabs,
+.two-news-sidebar .two-side-grid .left-grid .news-tabs ul,
+.two-news-sidebar .two-side-grid .post-list>:first-child,
+.two-news-sidebar .two-side-grid .post-list>:first-child figure,
+.two-news-sidebar .two-side-grid .post-list>:first-child figure .thumb {
+   width: 443.5px;
+}
+
+.two-news-sidebar .two-side-grid .sidebar {
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.two-news-sidebar .two-side-grid .post-list {
+   display: flex;
+   flex-direction: row;
+   gap: 32px;
+   flex-wrap: wrap;
+   flex: 1 1;
+   list-style: none;
+   padding-left: 0;
+   padding-bottom: 0;
+}
+
+.two-news-sidebar .two-side-grid .post-list>:first-child {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   height: 259.5px;
+}
+
+.two-news-sidebar .two-side-grid .post-list>:first-child a {
+   text-decoration: none;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+}
+
+.two-news-sidebar .two-side-grid .post-list>:first-child a figure {
+   height: auto;
+}
+
+.two-news-sidebar .two-side-grid .post-list>:first-child a figure .thumb {
+   height: 259.5px;
+   object-fit: cover;
+}
+
+.two-news-sidebar .two-side-grid .post-list>:first-child a .info {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   justify-content: flex-end;
+   display: flex;
+   flex-direction: column;
+   padding: 18px;
+   height: 100%;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.04) 63.02%, rgba(0, 0, 0, 0.16) 73.44%, rgba(0, 0, 0, 0.20) 100%);
+}
+
+.two-news-sidebar .two-side-grid .post-list>:first-child a .info .headlines {
+   color: #FFF;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   margin: 0;
+   line-height: 27px;
+   letter-spacing: 0.22px;
+}
+
+.two-news-sidebar .two-side-grid .post-list li {
+   width: 45.9%;
+   display: flex;
+   flex-direction: column;
+}
+
+.two-news-sidebar .two-side-grid .post-list li a {
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   color: #212121;
+   gap: 6px;
+}
+
+.two-news-sidebar .two-side-grid .post-list li a figure {
+   width: 100%;
+}
+
+.two-news-sidebar .two-side-grid .post-list li a figure img {
+   width: 100%;
+   height: auto;
+   min-height: 142px;
+   object-fit: cover;
+}
+
+.two-news-sidebar .two-side-grid .post-list li a .info {
+   display: flex;
+   flex-direction: column;
+}
+
+.two-news-sidebar .two-side-grid .post-list li a .info h3 {
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   margin: 0;
+   line-height: 22px;
+   letter-spacing: 0.16px;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.two-news-sidebar .two-side-grid .post-list li a:hover .info h3 {
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.two-news-sidebar .two-side-grid .sidebar .side-feed-list .side-feed::after {
+   bottom: -14px;
+}
+
+.two-news-sidebar .two-side-grid .left-grid>:first-child {
+   position: relative;
+}
+
+.two-news-sidebar .two-side-grid .left-grid>:first-child::after {
+   content: "";
+   position: absolute;
+   height: 98%;
+   width: 1px;
+   right: -16px;
+   border-right: 1px dotted #999999;
+}
+
+.two-news-sidebar .two-side-grid .left-grid {
+   position: relative;
+}
+
+.two-news-sidebar .two-side-grid .left-grid::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 1px;
+   background-color: #f0ebeb;
+}
+
+.two-news-sidebar .two-side-grid .side-feed-list {
+   display: flex;
+   flex-direction: column;
+   gap: 29px;
+   margin-bottom: -10px;
+   padding: 0;
+}
+
+
+#ltabone, #vtabone{
+   display: flex;
+}
+
+#ltabtwo, #ltabthree, #ltabfour, #ltabfive, #ltabsix, #vtabtwo, #vtabthree, #vtabfour, #vtabfive, #vtabsix {
+   display:none;
+}
+
+.tabactive a {
+   color: #A30224 !important;
+   text-decoration: underline;
+   text-underline-position: under;
+}
+.tabwactive a{
+   color: #fff !important;
+   text-decoration-color: #fff;
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.footer {
+   background: #F2F3F5;
+   padding: 0;
+}
+
+.footer .footer-nav {
+   padding-top: 40px;
+   display: flex;
+   padding-bottom: 30px;
+}
+
+.footer .footer-nav .footer-info {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.footer .footer-nav .footer-info .brand {
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+}
+
+.footer .footer-nav .footer-info .headings {
+   font-weight: 500;
+}
+
+.footer .footer-nav .footer-info a {
+   text-decoration: none;
+   color: #5a5a5a;
+}
+
+.footer .footer-nav .footer-info ul {
+   padding: 0;
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+
+.footer .footer-nav .footer-info ul a:hover {
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.footer .footer-nav .footer-info .brand .brand-logo {
+   width: 170px;
+   height: 34px;
+}
+
+.footer .footer-nav .footer-info .brand .brand-info {
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+}
+
+.footer .footer-nav .footer-info .brand .brand-info .info {
+   font-style: 14px;
+   font-weight: 400;
+   list-style: 22px;
+}
+
+.footer .footer-nav .footer-info .brand .brand-info .icon {
+   display: flex;
+   flex-direction: row;
+   gap: 16px;
+}
+
+.footer .footer-nav .footer-info .brand .brand-info .icon .icon {
+   width: 28px;
+   height: 28px;
+}
+
+.footer .footer-nav .footer-info .newsletter {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+
+.footer .footer-nav .footer-info .newsletter h3 {
+   margin: 0;
+   color: #666;
+   font-family: Poppins;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px;
+}
+
+.footer .footer-nav .footer-info .newsletter span {
+   color: #666;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 28px;
+}
+
+.footer .footer-nav .footer-info .newsletter form input {
+   border-radius: 22px;
+   border: 1px solid #E3E3E3;
+   background: #FFF;
+   color: #A0A0A0;
+   padding-left: 16px;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 28px;
+}
+
+.footer .footer-nav .footer-info .newsletter form {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+
+.footer .footer-nav .footer-info .newsletter form button {
+   border-radius: 15px;
+   background: #FF3E6A;
+   height: 32px;
+   border: none;
+   width: 96px;
+   color: #FFF;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.footer .footer-bottom {
+   background: #EAEAEA;
+   color: #6A6A6A;
+   padding: 16px;
+   font-style: 10px;
+   font-weight: 400;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+}
+
+.sidebar .trending-tags {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   list-style: none;
+   flex: 1 1;
+   padding: 0;
+}
+
+.sidebar .trending-tags .tags {
+   display: inline-block;
+   vertical-align: top;
+   border: 1px solid #dadce0;
+   padding: 3px 12px;
+   color: #a5a4a5;
+   letter-spacing: .05rem;
+   margin: 0 5px 10px 0;
+   transition: .2s ease all;
+   background: rgba(249, 249, 249, .57);
+   font-weight: 400;
+   border-radius: 15px;
+   font-size: 12px;
+}
+
+@media (min-width:992px) {
+   .two-news-sidebar .two-side-grid .left-grid {
+      min-width: 855px;
+      width: 75%;
+   }
+
+   .category .cat-page .cat-page-items .cat-items-list li a figure img {
+      width: -webkit-fill-available;
+      height: 110px;
+      min-width: 163.09px;
+      object-fit: cover;
+   }
+
+
+
+   .two-news-sidebar .two-side-grid .post-list>:first-child figure .thumb {
+      min-height: 259px;
+   }
+
+   .two-news-sidebar .two-side-grid .post-list li a figure img {
+      max-height: 142px;
+   }
+
+   .side-feed-list .side-feed .news figure .thumb {
+      min-width: 101px;
+      width: auto;
+      max-width: 101px;
+      min-height: 63px;
+      max-height: 63px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+   }
+
+   .footer .container {
+      padding: 0;
+   }
+
+   .two-news-sidebar .two-side-grid .sidebar {
+      width: 25%;
+   }
+}
+
+@media (max-width:991px) {
+   .header .mid-header .mid-hd .mid-nav {
+      display: none;
+   }
+
+   .one-news-sidebar .live-update .live-timelines .news-list li a h3 {
+      font-size: 16px;
+      line-height: 26px;
+      color: #333;
+      width: 95%;
+      margin: 0;
+      font-weight: 400;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+   }
+
+   .two-news-sidebar .two-side-grid .post-list>:first-child a .info .headlines {
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      margin: 0;
+      line-height: 26px;
+      letter-spacing: 0.22px;
+   }
+
+   .two-news-sidebar .two-side-grid .post-list li a .info h3 {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      margin: 0;
+      line-height: 26px;
+      letter-spacing: 0.16px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+   }
+
+   .header .top-header {
+      display: none;
+   }
+
+   .footer-nav .col-md-3 {
+      padding-left: 0;
+      padding-right: 0;
+   }
+
+   .mid-header .brand img {
+      width: 175px;
+   }
+
+   .taphead {
+      margin-top: 12px;
+   }
+
+   .mid-header .mid-hd {
+      padding-top: 0px;
+      padding-bottom: 0px;
+   }
+
+   .menu {
+      display: flex;
+      align-items: center;
+      width: 32px;
+      margin-right: auto;
+  }
+
+   .one-col .single-news .news-grid {
+      flex-direction: column;
+   }
+
+   .one-col .single-news .news-grid li {
+      width: -webkit-fill-available;
+      width: -moz-available;
+   }
+
+   .one-col .single-news .news-grid li a figure .thumb {
+      width: -webkit-fill-available;
+      width: -moz-available;
+      height: auto;
+      object-fit: cover;
+      width: -moz-available;
+   }
+
+   .one-col .single-news .news-grid li a .news-headlines {
+      font-size: 16px;
+      line-height: 26px;
+   }
+
+   .hero .hero-grid .lighthouse>:first-child,
+   .hero .hero-grid .lighthouse>:first-child a figure .thumb,
+   .hero .hero-grid .lighthouse li,
+   .hero .hero-grid .lighthouse li a figure .thumb {
+      width: -webkit-fill-available;
+      width: -moz-available;
+      height: auto;
+      min-height: 257px;
+      max-height: 257px;
+      width: -moz-available;
+   }
+
+   .hero .hero-grid .lighthouse>:first-child li a .info .lhs-text {
+      color: #FFF;
+      font-size: 22px;
+      font-style: normal;
+      margin: 0;
+      font-weight: 500;
+      line-height: 38.4px;
+      letter-spacing: 0.3px
+   }
+
+
+   .lighthouse>:first-child .info .news-info .date,
+   .lighthouse>:first-child .info .news-info .category,
+   .lighthouse li .info .news-info .date,
+   .lighthouse li .info .news-info .category {
+      font-size: 12px;
+   }
+
+   .one-news-sidebar .one-side-grid,
+   .two-news-sidebar .two-side-grid,
+   .two-news-sidebar .two-side-grid .left-grid {
+      flex-direction: column;
+   }
+
+   .two-news-sidebar .two-side-grid .left-grid .news-tabs,
+   .two-news-sidebar .two-side-grid .left-grid .news-tabs ul,
+   .two-news-sidebar .two-side-grid .post-list>:first-child,
+   .two-news-sidebar .two-side-grid .post-list>:first-child figure,
+   .two-news-sidebar .two-side-grid .post-list>:first-child figure .thumb,
+   .two-news-sidebar .two-side-grid .post-list li {
+      width: -webkit-fill-available;
+      width: -moz-available;
+   }
+
+   .ads {
+      width: -webkit-fill-available;
+      width: -moz-available;
+   }
+
+   .footer .footer-nav {
+      flex-direction: column;
+      gap: 24px;
+   }
+
+   .one-news-sidebar .stories .stories-list {
+      padding-bottom: 45px;
+   }
+
+   .one-news-sidebar .stories .stories-list {
+      overflow-x: scroll;
+      overflow-y: hidden;
+   }
+
+   .one-news-sidebar .live-update .live-timelines .news-list {
+      max-height: 150px;
+   }
+
+   .ads,
+   .ads300 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .side-feed-list .ads img,
+   .side-feed-list .ads300 img {
+      width: -moz-available;
+      width: -webkit-fill-available;
+      object-fit: cover;
+   }
+
+   .news-ticker {
+      display: none;
+   }
+
+   .menu-icon {
+      width: 16px;
+      height: 16px;
+   }
+
+   .hero .hero-grid {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .two-news-sidebar .two-side-grid .left-grid .news-tabs,
+   .two-news-sidebar .two-side-grid .left-grid .news-tabs ul,
+   .two-news-sidebar .two-side-grid .post-list> :first-child,
+   .two-news-sidebar .two-side-grid .post-list> :first-child figure,
+   .two-news-sidebar .two-side-grid .post-list> :first-child figure .thumb {
+      width: -webkit-fil-available;
+      width: -moz-available;
+   }
+
+   .hero .hero-grid .lighthouse {
+      flex-direction: column;
+   }
+
+   .two-news-sidebar .two-side-grid .post-list {
+      flex-direction: column;
+   }
+}
+
+
+
+
+@media (max-width:768px) {
+   .one-news-sidebar .stories .stories-list li figure .thumb {
+      width: 42vw;
+      height: 340px;
+      object-fit: cover;
+  }
+
+  
+      
+  #search-popup .category .cat-page .cat-page-items .cat-items-list li a figure {
+   max-width: 40% !important;
+   width: 144px !important;
+   min-width: 144px;
+}
+
+#search-popup .category .cat-page .cat-page-items .cat-items-list li a figure amp-img {
+   height: 85px !important;
+   border-radius: 5px;
+   min-width: 144px;
+   max-width: 153px;
+}
+
+#search-popup .category .cat-page .cat-page-items .cat-items-list li a h3 {
+   font-size: 16px !important;
+   line-height: 24px !important;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+#search-popup .category .cat-page .cat-page-items .cat-items-list {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   list-style: none;
+   width: 100%;
+   padding: 0;
+   gap: 32px;
+}
+
+#search-popup .category .cat-page .cat-page-items .cat-items-list li {
+   width: 100% !important;
+   display: flex;
+   flex-direction: column;
+}
+
+#search-popup .quick-search>.form-control {
+   font-size: 35px !important;
+}
+
+
+   .profile {
+      display: flex;
+      background-color: #f8f8f8;
+      gap: 32px;
+  }
+
+   #search-popup .quick-search>.form-control {
+      font-size: 35px !important;
+   }
+
+   .category .cat-page .cat-page-items .cat-items-list li a figure .img-thumb {
+      width:158px
+   }
+
+   .category .cat-page .cat-page-items .cat-items-list li {
+      width: 100% !important;
+      display: flex;
+      flex-direction: column;
+   }
+   
+   .userProfile .author-social {
+      top: -32px !important;
+      right: 50% !important;
+      transform: translate(19%, 0px);
+  }
+
+   .profile{
+      flex-direction: column;
+   }
+   
+   .menu {
+      order:unset;
+   }
+
+   .error-page h2 {
+      font-size: 80px;
+  }
+   
+   .men-buttons {
+      order:unset;
+   }
+   .mid-header .nav-row {
+      display: none;
+  }
+
+  .mid-header .mid-hd {
+   gap: unset;
+}
+.mid-header .brand {
+   display: block;
+   margin: 0 auto;
+}
+
+   .detailed figure iframe {
+      height: 250px;
+   }
+
+   #Detailed .category .cat-page .cat-page-items .cat-items-list li a figure img {
+      height: 85px !important;
+      border-radius: 5px;
+      min-width: 144px;
+   }
+
+   .tabhead-b-menu ul,
+   .tabhead-menu ul {
+      overflow: scroll;
+      overflow-y: hidden;
+   }
+
+   .mega-section .news-grid {
+      padding-left: 0;
+      margin: 0;
+      max-height: unset;
+   }
+
+   .mega-section .news-grid>:first-child {
+      width: 100%;
+   }
+
+   .mega-section .news-grid li {
+      width: 100%;
+   }
+
+   .mega-section .news-grid li a .thumb {
+      height: 85px;
+      max-height: 85px;
+      width: 100%;
+      border-radius: 5px;
+      object-fit: cover;
+   }
+
+   .brand-header .icons {
+      width: 50px;
+      justify-content: center;
+   }
+
+   .mega-section .news-grid li a .news-headlines {
+      color: #3C3C3C;
+      font-family: Poppins;
+      font-size: 16px;
+      width: 100%;
+      font-style: normal;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-weight: 500;
+      line-height: 27px;
+      margin: 0;
+      letter-spacing: 0.3px;
+   }
+
+   .tabhead-menu {
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+   }
+
+   .tabhead-b-menu {
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+   }
+
+   ::-webkit-scrollbar {
+      width: 0px;
+      height: 0px
+   }
+
+   .nav-header {
+      overflow-x: auto;
+      overflow-y: hidden;
+   }
+
+   .mob-hidden {
+      display: none !important;
+   }
+
+   .brand-header .container {
+      width: 100%;
+   }
+
+   .brand-header .brand-logo .logo {
+      width: 140px;
+      height: 46px;
+      object-fit: cover;
+   }
+
+   .brand-header .icons li a span {
+      display: none;
+   }
+
+   .breadcrumb li a.active {
+      max-width: 220px !important;
+   }
+
+   .category .cat-page .cat-page-items .cat-items-list li a figure {
+      max-width: 40% !important;
+      width: 160px !important;
+   }
+
+   .category .cat-page {
+      flex-direction: column;
+      display: flex;
+      gap: 16px;
+   }
+
+   .category .cat-page .sidebar {
+      margin-top: 32px;
+   }
+
+   .category .cat-page .cat-page-items .cat-items-list li a .info {
+      gap: 6px !important;
+   }
+
+   .category .cat-page .cat-page-items .cat-items-list li a h3 {
+      font-size: 16px !important;
+      line-height: 24px !important;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+   }
+
+   .category .cat-page .cat-page-items .cat-items-list li a figure img {
+      height: 100px;
+      border-radius: 5px;
+      min-width: 153px;
+      max-width:153px;
+   }
+
+   .side-feed-list .side-feed .news figure .thumb {
+      min-width: 144px;
+      max-width: 144px;
+      width: auto;
+      min-height: 85px;
+      max-height: 85px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+   }
+
+   .side-feed-list .side-feed .news .feeds-headlines {
+      color: #3C3C3C;
+      font-family: Poppins;
+      font-size: 16px;
+      width: 100%;
+      font-style: normal;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-weight: 500;
+      line-height: 27px;
+      margin: 0;
+      letter-spacing: 0.3px;
+   }
+
+
+   .side-feed-list .side-feed .news figure .thumb {
+      min-width: 144px;
+      max-width: 144px;
+      width: auto;
+      min-height: 85px;
+      max-height: 85px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+   }
+
+   .hero-grid .content-list li a h3 {
+      color: #3C3C3C;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26.6px;
+      letter-spacing: 0.3px;
+      -webkit-text-decoration: underline 0.15em transparent;
+      text-decoration: underline 0.15em transparent;
+      text-underline-offset: 0.35em;
+      transition: text-decoration-color 250ms ease-in-out, text-underline-offset 250ms ease-in-out;
+   }
+
+   .hero .hero-grid .lighthouse>:first-child a .info .lhs-text {
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      margin: 0;
+      font-weight: 500;
+      line-height: 26.4px;
+      letter-spacing: 0.3px;
+   }
+
+   .hero .hero-grid .lighthouse>:first-child a .info {
+      padding: 16px 16px;
+   }
+
+   .hero .hero-grid .lighthouse li a .info .lhs-text {
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      margin: 0;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0.3px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+   }
+   .header {
+      height:60px;
+   }
+}
+
+
+#menu-popup {
+   position: fixed;
+   width: 170px;
+   top: 0;
+   right: -100%;
+   height: 100%;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   transition: .8s;
+   z-index: 9999999;
+   padding: 16px;
+}
+
+.menu-active {
+   right: 0 !important;
+}
+
+#menu-popup .close {
+   display: flex;
+   opacity: 1;
+   justify-content: center;
+}
+
+#menu-popup .close .icon {
+   color: #ff3e6a;
+   font-size: 29px;
+   line-height: 32px;
+   transform: rotate(45deg);
+   font-weight: 400;
+   opacity: 1;
+}
+
+#menu-popup .links {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   list-style: none;
+   padding: 0;
+}
+
+#menu-popup .links li:hover {
+   transform: scale(0.8);
+}
+
+
+#menu-popup .links li {
+   border-radius: 15px;
+   background: #a30224;
+   height: 32px;
+   border: none;
+   width: 100%;
+   padding: 0;
+   display: flex;
+   color: #FFF;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   align-items: center;
+   justify-content: center;
+}
+
+#menu-popup .links li a {
+   font-size: 14px;
+   text-decoration: none;
+   color: #ffff;
+}
+
+/*-------------------------------------
+-------------- Category Page -----------------*/
+
+.category {
+   background: none;
+}
+
+.category .cat-page {
+   background: none;
+}
+
+.category .cat-page .cat-page-items {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.category .cat-page .cat-page-items .cat-items-list {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   list-style: none;
+   width: 100%;
+   padding: 0;
+   gap: 32px;
+}
+
+.category .cat-page .cat-page-items .cat-items-list li {
+   width: calc(50% - 16px);
+   display: flex;
+   flex-direction: column;
+}
+
+
+.category .cat-page .cat-page-items .cat-items-list li a figure .img {
+   width: 170px;
+   height: 110px;
+   object-fit: cover;
+}
+
+
+.category .cat-page .cat-page-items .cat-items-list li a figure .videoicon {
+   width: 35.564px !important;
+   height: 35.564px;
+   min-width: 35.564px;
+   object-fit: cover;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.category .cat-page .cat-page-items .cat-items-list li a figure {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.category .cat-page .cat-page-items .cat-items-list li a {
+   display: flex;
+   flex-direction: row;
+   gap: 8px;
+   color: #3c3c3c;
+   gap: 16px;
+}
+
+.category .cat-page .cat-page-items .cat-items-list li a .info {
+   display: flex;
+   flex-direction: column;
+   min-width: calc(60% - 16px);
+   gap: 8px;
+}
+
+.category .cat-page .cat-page-items .cat-items-list li a span {
+   font-size: 14px;
+   line-height: 1.5;
+}
+
+.category .cat-page .cat-page-items .cat-items-list li a h3 {
+   margin: 0;
+   font-size: 16px;
+   line-height: 28px;
+   font-weight: 500;
+   color: #3C3C3C;
+}
+.category .cat-page .cat-page-items .cat-items-list li a h3 {
+   text-underline-position: under;
+}
+
+.category .cat-page .side-feed-list .side-feed::after {
+   content: "";
+   position: absolute;
+   position: absolute;
+   width: 100%;
+   bottom: -8px;
+   height: 0.5px;
+   background: #9999994f;
+}
+
+.category .cat-page .sidebar .gallery {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   list-style: none;
+   padding: 0;
+   gap: 16px;
+   margin: 0;
+}
+
+.category .cat-page .sidebar .gallery li {
+   display: flex;
+   flex-direction: column;
+   width: calc(50% - 8px);
+   height: 150px;
+}
+
+.category .cat-page .sidebar .gallery li a {
+   text-decoration: none;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 100%;
+}
+
+.category .cat-page .sidebar .gallery li a .headlines {
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 21px;
+   margin: 0;
+   padding: 8px;
+   padding-bottom: 3px;
+   padding-top: 3px;
+   background: linear-gradient(357deg, #14141450, #66666680);
+   position: absolute;
+   bottom: 0px;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+
+.category .cat-page .sidebar .gallery li a figure {
+   width: 100%;
+}
+
+.category .cat-page .sidebar .gallery li a figure .thumb {
+   width: 100%;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 8px;
+}
+
+.category .cat-page .sidebar {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+/*----------------------------------------
+-------------Bread crumbs ----------------*/
+
+.breadcrumb {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 4px 15px !important;
+   overflow-y: hidden;
+   background-color: #f2f3f5;
+   overflow-x: scroll;
+   padding-left: 0;
+   gap: 5px;
+}
+
+.category .cat-page .cat-page-items .breadcrumb {
+   margin-bottom: 5px;
+}
+
+.breadcrumb li {
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+}
+
+.breadcrumb li a {
+   text-decoration: none;
+   color: #3c3c3c;
+   font-size: 14px;
+   width: max-content;
+   line-height: 22px;
+}
+
+.breadcrumb li a.active {
+   text-decoration: none;
+   color: #FF3E6A;
+   font-weight: 600;
+   font-size: 14px;
+   width: max-content;
+   line-height: 22px;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+   max-width: 500px;
+}
+
+.breadcrumb::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+
+.category .cat-page .cat-page-items .detailed {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.detailed h1,
+.detailed .story-title {
+   color: #3c3c3c;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 50px;
+   margin: 0;
+}
+
+.detailed h2,
+.detailed .subhead {
+   color: #6b6b6b;
+   font-size: 20px;
+   font-weight: 400;
+   margin: 0;
+   line-height: 26px;
+}
+
+.detailed figure {
+   display: flex;
+   flex-direction: column;
+}
+
+.detailed figure img {
+   height: auto;
+   padding: 0 0 5px;
+   width: 100%;
+}
+
+.detailed .custom-caption {
+   border-bottom: 1px solid #dbdbdb;
+   color: #747474;
+   display: block;
+   font-family: Roboto, sans-serif;
+   font-size: 14px;
+   clear: both;
+   font-weight: 400;
+   line-height: 19px;
+   margin: 0 0 20px;
+   overflow: hidden;
+   padding: 0 0 5px;
+   position: relative;
+}
+
+.detailed p {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+   padding: 0 0 20px;
+   color: #454545;
+}
+
+.tags-box {
+   display: flex;
+   flex-direction: row;
+}
+
+.tags-box .tag-head {
+   font-size: 14px;
+   font-weight: 400;
+   width: 70px;
+   display: block;
+   line-height: 22px;
+   padding: 2px 10px;
+   display: inline;
+}
+
+.tags-box ul {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 8px;
+   padding-left: 0px !important;
+   list-style: none;
+   padding: 0;
+}
+
+.tags-box ul li a {
+   color: #616161;
+   background: #f5f5f5;
+   display: inline-block;
+   letter-spacing: 1px;
+   font-size: 14px;
+   line-height: normal;
+   padding: 4px 10px;
+   margin: 0 3px 5px 0;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: auto;
+   -moz-osx-font-smoothing: auto;
+   -webkit-transition: all .2s linear;
+   -o-transition: all .2s linear;
+   transition: all .2s linear;
+}
+
+.one-news-sidebar .stories .webstories {
+   flex-wrap: wrap;
+}
+
+
+
+/* -------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+----------------------  Facedes -----------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------- */
+
+.facade {
+   width: 500px;
+   height: -webkit-fill-available;
+   background: #d9d9d9;
+   border-radius: 12px;
+   animation: facade 1.2s infinite ease-in-out;
+}
+
+.side-feed a h3 .facade {
+   width: 100%;
+   height: 22px;
+}
+
+.side-feed a h3>:nth-child(2).facade {
+   width: 75%;
+   height: 18px;
+   margin-top: 5px;
+}
+
+.side-feed a h3>:nth-child(3).facade {
+   width: 50%;
+   height: 16px;
+   margin-top: 5px;
+}
+
+.side-feed a figure .facade {
+   height: 75px;
+   width: 125px;
+}
+
+#Category .cat-page .cat-items-list figure .facade {
+   height: 85px;
+   width: 145px;
+}
+
+.detailed h1 .facade,
+#Category .cat-page .cat-items-list .info h3 .facade {
+   height: 40px;
+   max-width: 100%;
+   width: 100%;
+}
+
+#Category .cat-page .cat-items-list .info span .facade {
+   height: 16px;
+   max-width: 75%;
+   width: 75%;
+   min-width: 75%;
+}
+
+.category .cat-page .cat-page-items .cat-items-list .cat-items-list li {
+   width: calc(50% - 16px);
+}
+
+.detailed .tags-box ul li a .facade {
+   height: 20px;
+   width: 100px;
+}
+
+.detailed h2 .facade {
+   height: 25px;
+   width: 100%;
+}
+
+.detailed figure .facade {
+   height: 480px;
+   width: 100%;
+}
+
+.detailed p .facade {
+   height: 600px;
+   width: 100%;
+}
+
+@keyframes facade {
+   0% {
+      background: #dfdfdf;
+   }
+
+   50% {
+      background: #f1f1f1;
+   }
+
+   100% {
+      background: #dfdfdf;
+   }
+}
+
+/* -------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+----------------------  Search Popup -----------------------------------------------------*/
+#search-popup .search-box {
+   overflow-y: scroll;
+   max-height: calc(100vh - 38vh);
+}
+
+#search-popup {
+   position: fixed;
+   display: none;
+   flex-direction: column;
+   width: 100%;
+   top: 0;
+   z-index: 9999999;
+   height: 100%;
+   background-color: #fff;
+}
+
+#search-popup .quick-search {
+   margin: 16px auto;
+   width: 100%;
+}
+
+#search-popup .quick-search>.form-control {
+   background: transparent;
+   border: 0;
+   border-radius: 0;
+   box-shadow: none;
+   color: #b10000 !important;
+   display: block;
+   font-size: 50px;
+   font-weight: 400;
+   height: 100px;
+   padding: 10px 0;
+}
+
+/* -------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+----------------------  Facedes  Ends Here -----------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------- */
+
+
+/*-------------- New css  -------------------------------------------*/
+
+.profile{
+   display: flex;
+   background-color: #f8f8f8;
+}
+
+
+.profile .post__thumbnail.post__author {
+flex: 2;
+padding: 20px;
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+.profile .post__thumbnail{
+flex: 2;
+padding: 20px;
+}
+
+.profile .post__thumbnail img{ 
+   width: 100%;
+   border-radius: 20px;
+   height: 200px;
+   object-fit: cover;
+}
+.profile .post__thumbnail.post__author img{ 
+   width: 200px;
+   border-radius: 20px;
+   height: 200px;
+   object-fit: cover;
+}
+
+.profile .pro-contant {
+   flex: 3;
+   padding: 0 20px;
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   justify-content: center;
+}
+.userProfile .author-social li svg{
+   fill: #ff0000;
+   width: 16px;
+   margin-bottom: 8px;
+}
+.userProfile .author-social {
+   position: absolute;
+    top: 16px;
+    right: 4%;
+    display:flex;
+    flex-direction:row;
+    gap:16px;
+    list-style:none;
+}
+
+.error-page{
+   background-color: #f8f8f8;
+   margin-bottom: 20px;
+   padding: 10px;
+   text-align: center;
+}
+
+.error-page h2{
+   font-size: 150px;
+}
+
+.error-page ul{
+   margin: 20px 0px;
+   padding: 0;
+}
+
+.error-page li{ list-style: none;}
+
+.go-to-home{
+   font-weight: 600;
+   padding: 8px;
+   background-color: #ffffff;
+   display: block;
+   width: 160px;
+   margin: 20px auto 0px;
+   border-radius: 50px;
+   border: solid 1px;
+}
+
+.go-to-home:hover{
+   color: #FF3E6A;
+   text-decoration: none;
+}
+
+
+.current-live-update{
+   list-style: none;
+   padding: 0;
+   margin-top: 30px;
+}
+
+ul.current-live-update li:first-child{
+   border-top: solid 1px #dbdbdb;
+}
+ul.current-live-update li {
+   padding: 18px 0;
+   font-size: 16px;
+   border-bottom: solid 1px #dbdbdb;
+}
+
+ul.current-live-update li h2 {
+   font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 7px;
+ }
+ul.current-live-update li span{
+   width: 90px;
+   float: left;
+}
+
+ul.current-live-update li p{
+   font-size: 14px;
+}
+
+body.popbg:after {
+   content: " ";
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: #00000070;
+   z-index: 999999;
+   transition: 0.3;
+}
+</style>
+<body>
+    <div class="header">
+        <div class="top-header">
+            <div class="container">
+                <div class="top-hd">
+                    <div class="top-sm-links"><a class="sm-links" href="/">Jan Bhawna Times</a><a class="sm-links"
+                            href="/">Bharatvarsh</a><a class="sm-links" href="/">Punjabi Story Line</a><a
+                            class="sm-links" href="/">Jan Bhawna Times Telugu</a><a class="sm-links" href="/">The India
+                            Daily Live</a></div>
+                    <div class="top-sm-links"><a class="soc-links" href="/"><img alt=""
+                                src="./global-images/facebook.svg"></a><a class="soc-links" href="/"><img alt=""
+                                src="./global-images/twitter.svg"></a><a class="soc-links" href="/"><img
+                                src="./global-images/instagram.svg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="sticky-header" class="mid-header">
+            <div class="container">
+                <div class="mid-hd">
+                    <div class="menu" id="srchOpen"><img src="./global-images/search-icon.svg" alt="search-icon"
+                            class="menu-icon">
+                    </div>
+                    <div class="brand"><a class="brand-logo" href="/"><img
+                                src="https://images.topindiannews.com/wp-content/uploads/2023/07/17151500/TWITTER-BANNER-1500x500-px.jpg"
+                                alt="" class="logo"></a>
+                    </div>
+                    <div class="nav-row">
+                        <ul class="mid-nav">
+                            <li class="nav-links"><a class="links" href="/">HOME</a></li>
+                            <li class="nav-links"><a class="links" href="/national/">NATIONAL</a></li>
+                            <li class="nav-links"><a class="links" href="/world/">INTERNATIONAL</a></li>
+                            <li class="nav-links"><a class="links" href="/photo/">PHOTO</a></li>
+                            <li class="nav-links"><a class="links" href="/technology/">TECHNOLOGY</a></li>
+                            <li class="nav-links"><a class="links" href="/national/">NATIONAL</a></li>
+                            <li class="nav-links"><a class="links" href="/world/">INTERNATIONAL</a></li>
+                            <li class="nav-links"><a class="links" href="/national/">NATIONAL</a></li>
+                        </ul>
+                        <ul class="mid-nav">
+                            <li class="tag-links"><a class="links" href="/">#Delhi</a></li>
+                            <li class="tag-links"><a class="links" href="/">#Mumbai</a></li>
+                            <li class="tag-links"><a class="links" href="/">#Bigboss</a></li>
+                            <li class="tag-links"><a class="links" href="/">#Manipur</a></li>
+                            <li class="tag-links"><a class="links" href="/">#tech-views</a></li>
+                            <li class="tag-links"><a class="links" href="/">#reels</a></li>
+                            <li class="tag-links"><a class="links" href="/">#india</a></li>
+                            <li class="tag-links"><a class="links" href="/">#Trending</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="men-buttons" id="menu-button" onclick="menuShow()"><img
+                            src="./global-images/menu-styled.svg" alt="menu-icon" class="menu-icon">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="menu-popup" class="side-menu">
+            <div id="close" class="close" onclick="menuClose()">
+                <div class="icon">+</div>
+            </div>
+            <ul class="links">
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="/" target="_self">India</a></li>
+                <li><a href="/international" target="_self">International</a></li>
+                <li><a href="/sports" target="_self">NATIONAL</a></li>
+                <li><a href="/sports" target="_self">PHOTO</a></li>
+                <li><a href="/sports" target="_self">TECHNOLOGY</a></li>
+            </ul>
+        </div>
+        <div class="news-ticker">
+            <div class="container">
+                <div class="ticker-inner">
+                    <div class="tick-header"><span>Trending</span></div>
+                    <ul class="tick-content">
+                        <li><a class="tick-link" href="/">
+                                <h2>The Right Time to Hydrate: Is Drinking Water Immediately After Meals Beneficial?
+                                </h2>
+                            </a></li>
+                        <li><a class="tick-link" href="/">
+                                <h2>Irish singer Sinéad O’Connor has passed away at the age of 56.</h2>
+                            </a></li>
+                        <li><a class="tick-link" href="/">
+                                <h2>Jennifer Lopez’s Social Media Goes Dark: Photos</h2>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Category">
+        <section class="category">
+            <div class="container">
+                <div class="row cat-page">
+                    <div class="cat-page-items col-md-9">
+                        <ul class="breadcrumb">
+                            <li><a href="/">Home</a></li>
+                            <li><a class="active" href="/national/">Live Update</a></li>
+                        </ul>
+
+
+
+                        <section class="one-news-sidebar">
+                           
+                                <div class="col-md-12">
+                                    <div class="tabhead">
+                                        <a href="#">
+                                            <h2>News Flash 01 अक्टूबर 2023</h2>
+                                        </a>
+                                    </div>
+                                    <ul class="current-live-update">
+                                        <li>
+                                                <h2><span>12:22 PM</span> The Chi Season 5  – Release date, Expected plot, Cast Recap And Other </h2>
+                                                    <p>The Chi Season 5 might also be bringing Douda as per some statements that were made by one of the showrunners of The Chi, </p>
+                                            
+                                        </li>
+
+                                        <li>
+                                            <h2><span>12:22 PM</span> The Chi Season 5  – Release date, Expected plot, Cast Recap And Other </h2>
+                                                <p>The Chi Season 5 might also be bringing Douda as per some statements that were made by one of the showrunners of The Chi, </p>
+                                        
+                                    </li>
+
+
+                                    
+
+                                    </ul>
+                                </div>
+                      
+
+                        </section>
+
+                    </div>
+                    <div class="sidebar col-md-3">
+                        <div class="tabhead"><a href="/national/">
+                                <h2>Recent News</h2>
+                            </a>
+                        </div>
+                        <ul class="side-feed-list">
+                            <li class="side-feed"><a
+                                    href="/latest/the-right-time-to-hydrate-is-drinking-water-immediately-after-meals-beneficial">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://www.spirenews.net/wp-content/uploads/2023/09/drinking-water-scaled.jpg"
+                                                class="thumb" alt="{post.id}"></figure>
+                                        <h3 class="feeds-headlines">The Right Time to Hydrate: Is Drinking Water
+                                            Immediately After Meals Beneficial?</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a
+                                    href="/latest/irish-singer-sinead-oconnor-has-passed-away-at-the-age-of-56">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://www.spirenews.net/wp-content/uploads/2023/07/Sinead-OConnor.jpg"
+                                                class="thumb" alt="{post.id}"></figure>
+                                        <h3 class="feeds-headlines">Irish singer Sinéad O’Connor has passed away at the
+                                            age of 56.</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a href="/latest/jennifer-lopezs-social-media-goes-dark-photos">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://www.spirenews.net/wp-content/uploads/2022/11/cropped-jlo1.jpg"
+                                                class="thumb" alt="{post.id}"></figure>
+                                        <h3 class="feeds-headlines">Jennifer Lopez’s Social Media Goes Dark: Photos</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a
+                                    href="/latest/stephen-crichton-net-worth-wiki-age-brother-parents-ethnicity-girlfriend">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://www.spirenews.net/wp-content/uploads/2022/11/Stephen4.jpg"
+                                                class="thumb" alt="{post.id}"></figure>
+                                        <h3 class="feeds-headlines">Stephen Crichton Net Worth, Wiki, Age, Brother,
+                                            Parents, Ethnicity, Girlfriend</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a
+                                    href="/latest/people-got-angry-after-watching-the-video-of-a-stepbrother-and-sister-getting-married">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://www.spirenews.net/wp-content/uploads/2022/11/cropped-brother-sister1.jpg"
+                                                class="thumb" alt="{post.id}"></figure>
+                                        <h3 class="feeds-headlines">People got angry after watching the video of a
+                                            stepbrother and sister getting married!</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a
+                                    href="/latest/there-is-a-slowdown-in-the-housing-market-homeowners-should-sit-tight-in-2022">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://www.spirenews.net/wp-content/uploads/2022/11/house-for-sale.jpg"
+                                                class="thumb" alt="{post.id}"></figure>
+                                        <h3 class="feeds-headlines">There is a slowdown in the housing market.
+                                            Homeowners should sit tight in 2022.</h3>
+                                    </div>
+                                </a></li>
+                            <div class="ads"><img src="./global-images/ads.png" alt="ads"></div>
+                        </ul>
+                        <div class="tabhead"><a href="#">
+                                <h2>Video News</h2>
+                            </a>
+                        </div>
+                        <ul class="side-feed-list">
+                            <li class="side-feed"><a
+                                    href="/latest/the-right-time-to-hydrate-is-drinking-water-immediately-after-meals-beneficial">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://th-i.thgim.com/public/sport/other-sports/o8sswj/article67348596.ece/alternates/LANDSCAPE_960/IndianTeam.jpg"
+                                                class="thumb" alt="{post.id}">
+                                            <img src="./global-images/videoicon.png" alt="video-icon" class="videoicon">
+                                        </figure>
+                                        <h3 class="feeds-headlines">The Right Time to Hydrate: Is Drinking Water
+                                            Immediately After Meals Beneficial?</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a
+                                    href="/latest/irish-singer-sinead-oconnor-has-passed-away-at-the-age-of-56">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://th-i.thgim.com/public/incoming/yxf78h/article67347951.ece/alternates/LANDSCAPE_1200/20230916229L.jpg"
+                                                class="thumb" alt="{post.id}">
+                                            <img src="./global-images/videoicon.png" alt="video-icon" class="videoicon">
+                                        </figure>
+                                        <h3 class="feeds-headlines">Irish singer Sinéad O’Connor has passed away
+                                            at the age of 56.</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a href="/latest/jennifer-lopezs-social-media-goes-dark-photos">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://th-i.thgim.com/public/incoming/9v4o7k/article67344535.ece/alternates/LANDSCAPE_1200/Google_Lawsuit_North_Carolina_23077.jpg"
+                                                class="thumb" alt="{post.id}">
+                                            <img src="./global-images/videoicon.png" alt="video-icon" class="videoicon">
+                                        </figure>
+                                        <h3 class="feeds-headlines">Jennifer Lopez’s Social Media Goes Dark:
+                                            Photos</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a
+                                    href="/latest/stephen-crichton-net-worth-wiki-age-brother-parents-ethnicity-girlfriend">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://th-i.thgim.com/public/incoming/ty5fo/article67346107.ece/alternates/LANDSCAPE_1200/IMG_Agri14.jpg_2_1_TM9UGB8J.jpg"
+                                                class="thumb" alt="{post.id}">
+                                            <img src="./global-images/videoicon.png" alt="video-icon" class="videoicon">
+                                        </figure>
+                                        <h3 class="feeds-headlines">Stephen Crichton Net Worth, Wiki, Age,
+                                            Brother, Parents, Ethnicity, Girlfriend</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a
+                                    href="/latest/people-got-angry-after-watching-the-video-of-a-stepbrother-and-sister-getting-married">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://www.spirenews.net/wp-content/uploads/2022/11/cropped-brother-sister1.jpg"
+                                                class="thumb" alt="{post.id}">
+                                            <img src="./global-images/videoicon.png" alt="video-icon" class="videoicon">
+                                        </figure>
+                                        <h3 class="feeds-headlines">People got angry after watching the video of
+                                            a stepbrother and sister getting married!</h3>
+                                    </div>
+                                </a></li>
+                            <li class="side-feed"><a
+                                    href="/latest/there-is-a-slowdown-in-the-housing-market-homeowners-should-sit-tight-in-2022">
+                                    <div class="news">
+                                        <figure><img
+                                                src="https://th-i.thgim.com/public/sport/hpve84/article67346350.ece/alternates/LANDSCAPE_1200/DSC_3818.jpg"
+                                                class="thumb" alt="{post.id}">
+                                            <img src="./global-images/videoicon.png" alt="video-icon" class="videoicon">
+                                        </figure>
+                                        <h3 class="feeds-headlines">There is a slowdown in the housing market.
+                                            Homeowners should sit tight in 2022.</h3>
+                                    </div>
+                                </a></li>
+                        </ul>
+                        <div class="tabhead">
+                            <a href="/national/">
+                                <h2>Photo Gallery</h2>
+                            </a>
+                        </div>
+                        <ul class="gallery">
+                            <li>
+                                <a href="">
+                                    <figure><img
+                                            src="https://th-i.thgim.com/public/incoming/xo8bn3/article67345826.ece/alternates/LANDSCAPE_320/20230910256L.jpg"
+                                            alt="" class="thumb"></figure>
+                                    <h3 class="headlines">India last won a gold in equestrian sports in the individual
+                                        event at the 1982 New Delhi Asian Games</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <figure><img
+                                            src="https://th-i.thgim.com/public/incoming/ume860/article67346106.ece/alternates/LANDSCAPE_1200/IMG_2022-05-13T100024Z_1_2_1_B69R75JS.jpg"
+                                            alt="" class="thumb"></figure>
+                                    <h3 class="headlines">India last won a gold in equestrian sports in the individual
+                                        event at the 1982 New Delhi Asian Games</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <figure><img
+                                            src="https://th-i.thgim.com/public/incoming/q0wevk/article67346378.ece/alternates/LANDSCAPE_1200/AP09_23_2023_000035A.jpg"
+                                            alt="" class="thumb"></figure>
+                                    <h3 class="headlines">India last won a gold in equestrian sports in the individual
+                                        event at the 1982 New Delhi Asian Games</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <figure><img
+                                            src="https://th-i.thgim.com/public/incoming/xo8bn3/article67345826.ece/alternates/LANDSCAPE_320/20230910256L.jpg"
+                                            alt="" class="thumb"></figure>
+                                    <h3 class="headlines">India last won a gold in equestrian sports in the individual
+                                        event at the 1982 New Delhi Asian Games</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <figure><img
+                                            src="https://th-i.thgim.com/public/incoming/h21fox/article67345928.ece/alternates/LANDSCAPE_1200/2023-09-25T131131Z_87401888_RC2NPW9CJ6RV_RTRMADP_3_UKRAINE-CRISIS-NAVY-COMMANDER.JPG"
+                                            alt="" class="thumb"></figure>
+                                    <h3 class="headlines">India last won a gold in equestrian sports in the individual
+                                        event at the 1982 New Delhi Asian Games</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <figure><img
+                                            src="https://images.thejbt.com/uploadimage/library/16_9/16_9_2/IMAGE_1695726414.webp"
+                                            alt="" class="thumb"></figure>
+                                    <h3 class="headlines">India last won a gold in equestrian sports in the individual
+                                        event at the 1982 New Delhi Asian Games</h3>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tabhead">
+                            <a href="/national/">
+                                <h2># Topics</h2>
+                            </a>
+                        </div>
+                        <ul class="trending-tags">
+                            <li class="tags"><a href="">Coronavirus Live Map India</a></li>
+                            <li class="tags"><a href="">Google Trends</a></li>
+                            <li class="tags"><a href="">Cryptocurrency</a></li>
+                            <li class="tags"><a href="">Coronavirus in India</a></li>
+                            <li class="tags"><a href="">Asian Games 2023</a></li>
+                            <li class="tags"><a href="">ICC World Cup 2023</a></li>
+                            <li class="tags"><a href="">Rahul Gandhi</a></li>
+                            <li class="tags"><a href="">Lionel Messi</a></li>
+                            <li class="tags"><a href="">Aadhaar Card</a></li>
+                            <li class="tags"><a href="">Rohit Sharma</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="search-popup">
+        <section class="category">
+            <div class="container">
+                <div class="row cat-page">
+                    <div class="cat-page-items col-md-12">
+                        <form class="quick-search" action="https://www.theindiadaily.com/search"
+                            data-gtm-form-interact-id="0"><input type="text" name="q" placeholder="Type to search..."
+                                class="form-control search-input" autocomplete="off"
+                                data-gtm-form-interact-field-id="0"><span id="srchClose" class="close-search active"
+                                style="color: #828b96;
+                            cursor: pointer;
+                            display: inline-block;
+                            font-size: 60px;
+                            position: absolute;
+                            right: 30px;
+                            top: -24px;">×
+                            </span>
+                        </form>
+                        <p class="search-result-title">Search result: </p>
+                        <ul class="cat-items-list search-box">
+                            <li><a href="/national/earthquake-alert-tremors-rock-manipur-district/10095">
+                                    <figure><img
+                                            src="https://www.spirenews.net/wp-content/uploads/2023/09/images-5.jpeg"
+                                            alt="Earthquake Alert: Tremors Rock Manipur District" class="img-thumb">
+                                    </figure>
+                                    <div class="info">
+                                        <h3 class="headlines line-clamp-3">Earthquake Alert: Tremors Rock Manipur
+                                            District</h3><span>2023-09-12T12:05:30</span>
+                                    </div>
+                                </a></li>
+                            <li><a href="/national/irish-singer-sinead-oconnor-has-passed-away-at-the-age-of-56/9990">
+                                    <figure><img
+                                            src="https://www.spirenews.net/wp-content/uploads/2023/07/Sinead-OConnor.jpg"
+                                            alt="Irish singer Sinéad O&amp;#8217;Connor has passed away at the age of 56."
+                                            class="img-thumb"></figure>
+                                    <div class="info">
+                                        <h3 class="headlines line-clamp-3">Irish singer Sinéad O’Connor has passed away
+                                            at the age of 56.</h3><span>2023-07-27T23:38:07</span>
+                                    </div>
+                                </a></li>
+                            <li><a
+                                    href="/national/earthquake-in-indonesia-indonesia-shook-by-earthquake-46-killed-more-than-700-injured/9585">
+                                    <figure><img
+                                            src="https://www.spirenews.net/wp-content/uploads/2022/11/indonesia.jpg"
+                                            alt="Earthquake in Indonesia: Indonesia shook by earthquake, 46 killed, more than 700 injured"
+                                            class="img-thumb"></figure>
+                                    <div class="info">
+                                        <h3 class="headlines line-clamp-3">Earthquake in Indonesia: Indonesia shook by
+                                            earthquake, 46 killed, more than 700 injured</h3>
+                                        <span>2022-11-21T22:03:42</span>
+                                    </div>
+                                </a></li>
+                            <li><a href="/national/blueface-arrested-for-attempted-murder-in-las-vegas/9407">
+                                    <figure><img src="https://www.spirenews.net/wp-content/uploads/2022/11/blueface.jpg"
+                                            alt="Blueface Arrested for Attempted Murder in Las Vegas" class="img-thumb">
+                                    </figure>
+                                    <div class="info">
+                                        <h3 class="headlines line-clamp-3">Blueface Arrested for Attempted Murder in Las
+                                            Vegas</h3><span>2022-11-16T07:32:23</span>
+                                    </div>
+                                </a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <div id="Footer">
+        <section class="footer">
+            <div class="container">
+                <div class="footer-nav">
+                    <div class="footer-info col-md-3">
+                        <div class="brand">
+                            <a href="http://">
+                                <figure>
+                                    <img src="./global-images/top-indian-news-logo.svg" alt="brand-logo"
+                                        class="brand-logo" />
+                                </figure>
+                            </a>
+                            <div class="brand-info">
+                                <span class="info">
+                                    Janbhavna Times Group was established to develop positive
+                                    thinking in the media world. All the verticals (newspaper,
+                                    website, youtube channel) of this group are running with
+                                    this objective.
+                                </span>
+                                <div class="icon">
+                                    <a href="#">
+                                        <img src="./global-images/soc-icons-fb.svg" alt="soc-icons-fb" class="icon" />
+                                    </a>
+                                    <a href="#">
+                                        <img src="./global-images/soc-icons-twitter.svg" alt="soc-icons-twitter"
+                                            class="icon" />
+                                    </a>
+                                    <a href="#">
+                                        <img src="./global-images/soc-icons-insta.svg" alt="soc-icons-insta"
+                                            class="icon" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-info col-md-3">
+                        <a href="" class="headings">
+                            Category
+                        </a>
+                        <ul class="links">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">National</a>
+                            </li>
+                            <li>
+                                <a href="#">International</a>
+                            </li>
+                            <li>
+                                <a href="#">Entertainment</a>
+                            </li>
+                            <li>
+                                <a href="#">States</a>
+                            </li>
+                            <li>
+                                <a href="#">Lifestyle</a>
+                            </li>
+                            <li>
+                                <a href="#">Business</a>
+                            </li>
+                            <li>
+                                <a href="#">Tech</a>
+                            </li>
+                            <li>
+                                <a href="#">Astrology</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-info col-md-3">
+                        <a href="" class="headings">
+                            Trending
+                        </a>
+                        <ul class="links">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">National</a>
+                            </li>
+                            <li>
+                                <a href="#">International</a>
+                            </li>
+                            <li>
+                                <a href="#">Entertainment</a>
+                            </li>
+                            <li>
+                                <a href="#">States</a>
+                            </li>
+                            <li>
+                                <a href="#">Lifestyle</a>
+                            </li>
+                            <li>
+                                <a href="#">Business</a>
+                            </li>
+                            <li>
+                                <a href="#">Tech</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-info col-md-3">
+                        <div class="newsletter">
+                            <h3>Subscribe our Newsletter</h3>
+                            <span>
+                                Get Latest news and every updates from Top Indian News Powered
+                                by Jan Bhawna Times Group
+                            </span>
+                            <form action>
+                                <input type="email" placeholder="Enter Your Email ID" name id />
+                                <button type="button" class="form-button">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">ALL COPYRIGHTS (C) 2023 RESERVED</div>
+        </section>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.onscroll = function () { scrollsticky() }
+        var navbar = document.getElementById("sticky-header");
+        var sticky = navbar.offsetTop
+        function scrollsticky() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("stickynav")
+            } else {
+                navbar.classList.remove("stickynav");
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        document.getElementById("menu-button").addEventListener("click", function () {
+            menuShow();
+        });
+        document.getElementById("close").addEventListener("click", function () {
+            menuClose();
+        });
+        function menuShow() {
+            document.getElementById("menu-popup").style.right = "0%";
+            console.log("search-click")
+        }
+        function menuClose() {
+            document.getElementById("menu-popup").style.right = "-100%";
+        }
+    </script>
+    <script type="text/javascript">
+        document.getElementById("srchOpen").addEventListener("click", function () {
+            srchShow();
+        });
+        document.getElementById("srchClose").addEventListener("click", function () {
+            srchHide();
+        });
+
+        function srchShow() {
+            document.getElementById("search-popup").style.display = "flex";
+        }
+        function srchHide() {
+            document.getElementById("search-popup").style.display = "none";
+        }
+
+    </script>
+
+</body>
+
+</html>
